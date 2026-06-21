@@ -12,8 +12,8 @@
 Tại các siêu thị và cửa hàng tiện lợi, hàng ngàn tấn thực phẩm hoàn toàn chất lượng bị tiêu hủy mỗi ngày chỉ vì "chạm mốc 24h cuối cùng", trong khi các tổ chức từ thiện thiếu hụt nguồn cung an toàn. 
 
 **Eco-Barter** giải quyết bài toán này bằng một **AI Agent tự chủ** hoạt động theo thời gian thực:
-1. **Dynamic Pricing (Định giá động):** Tự động suy luận mức chiết khấu (20% -> 40% -> 60%) dựa trên gia tốc đếm ước lượng tính từ mốc sự kiện hiện tại đến hạn chót 21:00 của ngày hết hạn sản phẩm.
-2. **Zero-Waste Fallback (Kích hoạt từ thiện):** Khi sản phẩm bước vào mốc giờ rủi ro cao (< 6 tiếng), Agent tự động gỡ mác thương mại, chuyển 100% hàng hóa sang mác **"Quyên góp Chữ Thập Đỏ (0đ)"**.
+1. **Dynamic Pricing (Định giá động):** Tự động suy luận mức chiết khấu tăng dần (20% -> 40% -> 60%) dựa trên gia tốc đếm ước lượng tính từ mốc thời gian thực hiện tại đến hạn chót của ngày hết hạn sản phẩm. Khi thời gian chạm mốc rủi ro cao (< 6 tiếng), Agent lập tức kích hoạt kịch bản xả kho với mức chiết khấu tối đa 60%.
+2. **Zero-Waste Fallback (Kích hoạt từ thiện):** Khi sản phẩm chính thức hết giờ mở bán thương mại hoặc hệ thống kích hoạt trạng thái khẩn cấp, Agent tự động gỡ mác thương mại, chuyển dịch 100% hàng hóa sang mác **"Quyên góp Chữ Thập Đỏ (0đ)"** để giải quyết triệt để vấn đề rác thải thực phẩm.
 
 ---
 
