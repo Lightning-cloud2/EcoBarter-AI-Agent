@@ -74,5 +74,4 @@ streamlit run app.py
 python -m streamlit run app.py
 ```
 
----
-*Developed with ❤️ by **Team Infinity** (FPT University Quy Nhon) for the 2026 Hackathon.*
+-------------------------------------------------------------------------
