@@ -67,7 +67,11 @@ GROQ_API_KEY=gsk_your_api_key_here
 
 4. **Khởi chạy ứng dụng:**
 ```bash
+# Cách 1: Chạy trực tiếp
 streamlit run app.py
+
+# Cách 2: Nếu gặp lỗi "not recognized", sử dụng lệnh này:
+python -m streamlit run app.py
 ```
 
 ---
