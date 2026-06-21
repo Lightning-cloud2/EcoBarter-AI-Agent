@@ -1,0 +1,12 @@
+# BẢO MẬT CREDENTIALS
+.env
+*.env
+.env.*
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets
+.streamlit/secrets.toml
